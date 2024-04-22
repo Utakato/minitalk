@@ -10,6 +10,7 @@
 #endif
 
 #include <unistd.h>
+#include <signal.h>
 /* testing */
 #include <stdio.h>
 
