@@ -29,8 +29,8 @@ run: $(NAME)
 
 clean: 
 	@echo "Cleaning..."
-	@rm server	
-	@rm client
+	@rm -f server	
+	@rm -f client
 
 fclean: clean
 	@echo "Full cleaning..."
